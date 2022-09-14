@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>INFLUENCE</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <meta name="description" content="Plus de lecture 2" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">MON BLOG EN LIGNE SUR L'INFLUENCE DE PYTHON</a></h1>
+                <nav><ul>
+                    <li class="active"><a href="/category/misc.html">misc</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/influence.html" rel="bookmark"
+           title="Permalink to INFLUENCE">INFLUENCE</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-09-14T00:00:00+02:00">
+                Published: mer. 14 septembre 2022
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/julia.html">Julia</a>
+        </address>
+<p>In <a href="/category/misc.html">misc</a>.</p>
+<p>tags: <a href="/tag/machine-learning-ai-analyse-des-donnees.html">machine learning AI analyse des données</a> </p>
+</footer><!-- /.post-info -->      <p>Plusieurs grands organismes ont adopté ce langage tel que Google, la NASA, etc. et certains logiciels libres l’on comme langage de commande tels libreoffice, Blender et paraview
+En France, il est enseigné dès les classes préparatoires scientifiques.
+Aux Etats-unis, près de 8 sur 10 des meilleures universités poussent Python pour initier à la programmation pour le cursus d’informatique.
+Avec l’évolution de la Big data et du machine learning, Python est fortement sollicité dans ces cas en plus de l’essor de l’analyse des données. Puisque la majorité des bibliothèques qui sont utilisé ont python pour interface, ce dernier va devenir l’interface de commande le plus populaire pour les bibliothèques de Machine Learning et autres algorithmes numériques.</p>
+<p>Voici 2 des plusieurs notions vues en cours d’Algorithme et programmation
+Nous y insérerons les concepts de base de Python :
+Points-virgules ; pour terminer les lignes
+Dièse # pour les commentaires
+Egal = pour créer ou déclarer une variable
+== , &lt; , &gt; , + , _ , * , / les opérations.</p>
+<blockquote>
+<ol class="arabic simple">
+<li>Les Boucles<ol class="loweralpha">
+<li>La boucle WHILE</li>
+</ol>
+</li>
+</ol>
+</blockquote>
+<p>Permet d’éxécuter une ou plusieurs instructions de manière repetée jusqu’à ce qu’une condition soit vérifiée.</p>
+<div class="highlight"><pre><span></span><span class="n">Max_age</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">Age</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">While</span> <span class="n">age</span> <span class="o">&lt;</span> <span class="n">max_age</span> <span class="p">:</span>
+     <span class="n">Print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;L’age </span><span class="si">{</span><span class="n">age</span><span class="si">}</span><span class="s2"> est inferieur à </span><span class="si">{</span><span class="n">max_age</span><span class="si">}</span><span class="s2">&quot;&quot;)</span>
+     <span class="n">Age</span> <span class="o">=</span> <span class="n">age</span> <span class="o">+</span><span class="mi">1</span>
+</pre></div>
+<p>Pour cette boucle, il est donc important de mettre à jour la condition lorsque le code tourne autrement la boucle tourne indéfiniment.</p>
+<blockquote>
+<ol class="loweralpha simple" start="2">
+<li>La boucle FOR</li>
+</ol>
+</blockquote>
+<p>Celle-ci répète plusieurs fois la même action sur les éléments d’une même séquence dans l’ordre dans lequel ils apparaissent dans la séquence.</p>
+<div class="highlight"><pre><span></span><span class="n">For</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span> <span class="p">:</span>
+ <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Le nombre actuel est </span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+<ol class="arabic simple" start="2">
+<li>Les Alternatives</li>
+</ol>
+<p>Elles sont des structures de programmation effectuant un test logique sur une condition et permettant un choix entre divers blocs d'instructions suivant le résultat de ce test.
+Pour faire simple, une alternative nous permet d'exécuter de manière conditionnelle une partie de notre code.
+En Python,
+•       If : pour autoriser ou empêcher l’exécution d’une ou de plusieurs instructions.
+•       Elif : pour autoriser ou empêcher l’exécution d’une ou de plusieurs commandes si if n’est pas vérifié.
+•       Else : si les deux premières conditions ne sont pas vérifiées alors c’est la condition Else qui va être exécuté.</p>
+<div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="n">c</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">Delta</span> <span class="o">=</span> <span class="n">b</span><span class="o">*</span><span class="mi">2</span> <span class="o">-</span> <span class="p">(</span><span class="mi">4</span><span class="o">*</span><span class="n">a</span><span class="o">*</span><span class="n">c</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">Delta</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">Delta</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+   <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Il n&#39;y a pas de solution à l&#39;équation&quot;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">Delta</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span> <span class="c1">#else if / sinon si</span>
+   <span class="n">x1</span> <span class="o">=</span> <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="o">*</span><span class="n">b</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="o">*</span><span class="n">a</span>
+   <span class="n">x2</span> <span class="o">=</span> <span class="n">x1</span>
+   <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Il n&#39;existe qu&#39;une seule solution à l&#39;équation. Cette solution est :&quot;</span><span class="p">,</span> <span class="n">x</span><span class="s2">&quot;)</span>
+<span class="k">elif</span> <span class="n">Delta</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+   <span class="n">racine_delta</span> <span class="o">=</span> <span class="n">Delta</span><span class="o">**</span><span class="mf">0.5</span>
+   <span class="n">x1</span><span class="o">=</span> <span class="p">((</span><span class="o">-</span><span class="mi">1</span><span class="o">*</span><span class="n">b</span><span class="p">)</span> <span class="o">-</span> <span class="n">racine_delta</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">a</span><span class="p">)</span>
+   <span class="n">x2</span><span class="o">=</span> <span class="p">((</span><span class="o">-</span><span class="mi">1</span><span class="o">*</span><span class="n">b</span><span class="p">)</span> <span class="o">+</span> <span class="n">racine_delta</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">a</span><span class="p">)</span>
+   <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Il existe deux solutions : x1=</span><span class="si">{</span><span class="n">x1</span><span class="si">}</span><span class="s2"> , x2=</span><span class="si">{</span><span class="n">x2</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+<div class="highlight"><pre><span></span>Il existe deux solutions : <span class="nv">x1</span><span class="o">=</span>-1.0 , <span class="nv">x2</span><span class="o">=</span>-0.5
+</pre></div>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="https://www.univ-angers.fr/fr/index.html">Univ-Angers</a></li>
+                            <li><a href="https://www.python.org/">Python.org</a></li>
+                            <li><a href="https://getpelican.com/">Pelican</a></li>
+                            <li><a href="https://palletsprojects.com/p/jinja/">Jinja2</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="https://www.linkedin.com/in/cgailloty/">Here is the link to my professor linkedin profil :) </a></li>
+                            <li><a href="https://github.com/agailloty">Here is his github profil</a></li>
+                            <li><a href="https://www.linkedin.com/in/julia-tayaye-iley/">My linkedin profil</a></li>
+                            <li><a href="https://github.com/JuliaTayaye">the github profil that he made me create ^-^</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
